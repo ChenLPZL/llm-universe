@@ -10,7 +10,7 @@ from zhipuai_embedding import ZhipuAIEmbeddings
 from langchain_community.vectorstores import Chroma
 
 def get_retriever():
-    # 定义 Embeddings
+    # 定义 Embeddings, edited by Lipeng Chen 
     embedding = ZhipuAIEmbeddings()
     # 向量数据库持久化路径
     persist_directory = 'data_base/vector_db/chroma'
